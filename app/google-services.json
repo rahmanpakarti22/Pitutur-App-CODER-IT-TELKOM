@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "355473067291",
+    "project_id": "pitutur-d30a3",
+    "storage_bucket": "pitutur-d30a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355473067291:android:4e60cc1d859d88b7bad7be",
+        "android_client_info": {
+          "package_name": "com.example.pitutur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355473067291-ut4ncogm4r9tucq0gopbmp8m09o52nj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn16w79whXFOQaq4bu-YMYHRMV6YoeVFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355473067291-ut4ncogm4r9tucq0gopbmp8m09o52nj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

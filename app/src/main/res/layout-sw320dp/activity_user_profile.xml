@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile.User_Profile">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_profile_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/close_btn"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/button_close_white"
+            android:contentDescription="@string/ilus_txt"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bg_profile_user"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            app:cardBackgroundColor="@color/Color_2"
+            app:cardCornerRadius="17dp">
+
+            <LinearLayout
+                android:id="@+id/pilih_foto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical"
+                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,SpeakableTextPresentCheck">
+
+                <ImageView
+                    android:id="@+id/profile_userIv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/image_strings"
+                    tools:ignore="ImageContrastCheck"
+                    android:background="@drawable/empty_foto"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_profile_user"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/keterangan_profile_pengguna"
+                    android:textColor="@color/Color_2"
+                    android:textSize="22sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textStyle="bold"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="21dp"
+                    android:hint="@string/nama_lengkap_register"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2"
+                    app:endIconMode="clear_text">
+
+                    <EditText
+                        android:id="@+id/prof_nama_lengkapET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/nama"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="15sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="21dp"
+                    android:hint="@string/nim_register"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2"
+                    app:endIconMode="clear_text">
+
+                    <EditText
+                        android:id="@+id/prof_nimET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/nim"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="15sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="21dp"
+                    android:hint="@string/jurusan_register"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2"
+                    app:endIconMode="clear_text">
+
+                    <EditText
+                        android:id="@+id/prof_jurusanET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/jurusan"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="15sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="47dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/logout_btn"
+                    android:layout_width="90dp"
+                    android:layout_height="54dp"
+                    android:layout_marginEnd="22dp"
+                    android:background="@drawable/button_logout"
+                    android:contentDescription="@string/ilus_txt"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/simpan_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:text="@string/btn_simpan"
+                    android:textColor="@color/Color_1"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:background="@drawable/button_shape"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

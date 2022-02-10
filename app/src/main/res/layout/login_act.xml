@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.Login">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_130sdp"
+            android:contentDescription="@string/logo_login"
+            android:src="@drawable/logo_2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/splash_name"
+                android:textColor="@color/Color_2"
+                android:textSize="@dimen/_34ssp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/login_screen_txt"
+                android:textColor="@color/Color_2"
+                android:textSize="@dimen/_27ssp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/email_login"
+                    app:endIconMode="clear_text"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2">
+
+                    <EditText
+                        android:id="@+id/email_ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/email_ic"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="15sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="27dp"
+                    android:hint="@string/password_login"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/Color_2">
+
+                    <EditText
+                        android:id="@+id/password_Et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/lock_pass"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="15sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <TextView
+                    android:id="@+id/lupa_password"
+                    android:layout_width="100dp"
+                    android:layout_height="12dp"
+                    android:background="@drawable/custom_click_text"
+                    android:clickable="true"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login__button"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/proses_btn"
+                android:textColor="@color/Color_1"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:background="@drawable/button_shape"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/belum_punya_akun_login"
+                    android:layout_marginEnd="7dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/Color_2"/>
+
+                <TextView
+                    android:id="@+id/txt_register"
+                    android:layout_width="55dp"
+                    android:layout_height="12dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/custom_click_text_2"
+                    android:clickable="true"
+                    tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

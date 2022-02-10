@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tamplate_Detail.Tamplate_detail">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bg_profile_user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/close_btn"
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/button_close_white"
+            android:contentDescription="@string/ilus_txt"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="37dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                tools:ignore="UselessParent">
+
+                <DigitalClock
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:textSize="33sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:textColor="@color/Color_2"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="20dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardBackgroundColor="@color/Color_2">
+
+                    <RelativeLayout
+                        android:id="@+id/blm_waktunya"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:gravity="center"
+                            android:text="@string/blm_waktunya"
+                            android:textStyle="normal"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textColor="@color/Color_1"
+                            android:textSize="13sp"
+                            tools:ignore="SmallSp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/sdh_waktunya"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:text="@string/waktunya"
+                            android:textColor="@color/Color_1"
+                            android:textSize="13sp"
+                            android:textStyle="normal"
+                            tools:ignore="SmallSp" />
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/judul_tamplate"
+                    app:endIconMode="clear_text"
+                    android:textColorHint="@color/Color_2"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2">
+
+                    <EditText
+                        android:id="@+id/judul_tamplate_ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="7dp"
+                        android:importantForAutofill="no"
+                        android:inputType="text"
+                        android:maxLines="1"
+                        android:textColor="@color/Color_2"
+                        android:textSize="18sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    app:cardCornerRadius="14dp"
+                    android:layout_marginTop="30dp"
+                    app:cardBackgroundColor="@color/Color_6">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginStart="20dp"
+                            android:contentDescription="@string/image_strings"
+                            android:src="@drawable/line_ic" />
+
+                        <TextView
+                            android:id="@+id/jenis_tamplate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="10dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textColor="@color/Color_2"
+                            android:textSize="15sp"
+                            android:textStyle="normal"
+                            tools:ignore="SmallSp" />
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/salam_tamplate_txt"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="@color/Color_2"
+                    android:textSize="17sp"
+                    android:textStyle="normal"
+                    tools:ignore="SmallSp" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/bc_salam_one"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button__salam_shape"
+                        app:layout_constraintEnd_toStartOf="@+id/bc_salam_two"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:layout_marginEnd="5dp"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/salam_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:text="@string/salam_one"
+                            android:textColor="@color/Color_1"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bc_salam_two"
+                        android:layout_width="120dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button__salam_shape"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/salam_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:text="@string/salam_two"
+                            android:textColor="@color/Color_1"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/pagi_bc"
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button__salam_shape"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/tvpagi"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:text="@string/time_one"
+                            android:textColor="@color/Color_1"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/siang_bc"
+                        android:layout_width="0dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button__salam_shape"
+                        app:layout_constraintEnd_toStartOf="@+id/sore_bc"
+                        app:layout_constraintStart_toEndOf="@+id/pagi_bc"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/tvsiang"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginEnd="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:text="@string/time_two"
+                            android:textColor="@color/Color_1"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sore_bc"
+                        android:layout_width="90dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button__salam_shape"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/tvsore"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:text="@string/time_three"
+                            android:textColor="@color/Color_1"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/bc_gender_one"
+                        android:layout_width="0dp"
+                        android:layout_height="45dp"
+                        android:layout_marginEnd="7dp"
+                        android:background="@drawable/button__salam_shape"
+                        app:layout_constraintEnd_toStartOf="@+id/bc_gender_two"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/gender_one_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:text="@string/gender_one"
+                            android:textColor="@color/Color_1"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bc_gender_two"
+                        android:layout_width="170dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button__salam_shape"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        tools:ignore="MissingConstraints">
+
+                        <TextView
+                            android:id="@+id/gender_two_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            android:text="@string/gender_two"
+                            android:textColor="@color/Color_1"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColorHint="@color/Color_2"
+                    android:layout_marginTop="20dp"
+                    app:boxCornerRadiusBottomEnd="11dp"
+                    app:boxCornerRadiusBottomStart="11dp"
+                    app:boxCornerRadiusTopEnd="11dp"
+                    app:boxCornerRadiusTopStart="11dp"
+                    app:boxStrokeColor="@color/Color_2">
+
+                    <EditText
+                        android:id="@+id/tamplate_ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        android:inputType="textMultiLine"
+                        android:gravity="top"
+                        android:justificationMode="inter_word"
+                        android:importantForAutofill="no"
+                        android:maxLines="300"
+                        android:textColor="@color/Color_2"
+                        android:textSize="15sp"
+                        tools:ignore="LabelFor,TextFields,SpeakableTextPresentCheck"
+                        tools:targetApi="o" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="end"
+                    android:layout_marginBottom="47dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/simpan_btn"
+                        android:layout_width="77dp"
+                        android:layout_height="67dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/button_save"
+                        android:contentDescription="@string/ilus_txt"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageButton
+                        android:id="@+id/salin_btn"
+                        android:layout_width="77dp"
+                        android:layout_height="67dp"
+                        android:background="@drawable/button_send"
+                        android:contentDescription="@string/ilus_txt"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme_one" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Secondary Item. -->
+        <item name="colorPrimary">@color/Color_2</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:orientation">vertical</item>
+        <!-- Status bar & Nav Bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme_two" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Color_2</item>
+        <!-- Secondary Item. -->
+        <item name="android:windowBackground">@color/Color_1</item>
+        <item name="android:orientation">vertical</item>
+        <!-- Status bar & Nav Bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/Color_1</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/Color_1</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme_three" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Color_2</item>
+        <!-- Secondary Item. -->
+        <item name="android:windowBackground">@color/Color_2</item>
+        <item name="android:orientation">vertical</item>
+        <!-- Status bar & Nav Bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/Color_1</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/Color_1</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme_four" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Color_2</item>
+        <!-- Secondary Item. -->
+        <item name="android:windowBackground">@color/Color_2</item>
+        <item name="android:orientation">vertical</item>
+        <!-- Status bar & Nav Bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/Color_2</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/Color_1</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <!--<item name="android:windowCloseOnTouchOutside">false</item>-->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">     @android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/Android/Test/PITUTUR-1/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/PITUTUR-1/app/src/main/res/layout/splashscreen_act.xml" value="0.14" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable-v24/bg_profile_user.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable-v24/btn_changes_one.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable-v24/btn_changes_two.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable-v24/button_close_white.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable-v24/button_logout.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/bg-loading.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/bg_custom_loading.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/bg_register_shape.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/bg_register_shape_2.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/btn_tamplate_five.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/btn_tamplate_four.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/btn_tamplate_one.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/btn_tamplate_three.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/btn_tamplate_two.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/button__salam_shape.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/button_back_reg.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/button_close.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/button_save.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/button_send.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/button_shape.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/button_shape_2.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/custom_click_text.xml" value="0.1" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/custom_click_text_2.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/jurusan.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/nama.xml" value="0.1305" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/nim.xml" value="0.1305" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/salam_shape.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/salam_shape_2.xml" value="0.1751054852320675" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/drawable/txtinputlayout_color.xml" value="0.17735042735042736" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/activity_detail.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/activity_tamplate_detail.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/activity_user_profile.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/bottomdialog.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/home_act.xml" value="1.0" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/login_act.xml" value="0.3784530386740331" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/lupa_password_act.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/register_act.xml" value="0.16" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/row_tamplate.xml" value="0.33" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw160dp/splashscreen_act.xml" value="0.14" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/activity_detail.xml" value="0.22" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/activity_tamplate_detail.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/bottomdialog.xml" value="0.25" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/home_act.xml" value="0.22" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/loading_layout.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/login_act.xml" value="0.25" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/lupa_password_act.xml" value="0.33" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/register_act.xml" value="0.22" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/row_tamplate.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw240dp/splashscreen_act.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/activity_detail.xml" value="0.16" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/activity_tamplate_detail.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/activity_user_profile.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/bottomdialog.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/home_act.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/login_act.xml" value="0.22" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/lupa_password_act.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/register_act.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/row_tamplate.xml" value="0.25" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw320dp/splashscreen_act.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw480dp/home_act.xml" value="0.15" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/activity_detail.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/activity_tamplate_detail.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/activity_user_profile.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/bottomdialog.xml" value="0.16" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/home_act.xml" value="0.1" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/loading_layout.xml" value="0.25" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/login_act.xml" value="0.1" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/lupa_password_act.xml" value="0.1" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/register_act.xml" value="0.1" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/row_tamplate.xml" value="0.22" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout-sw720dp/splashscreen_act.xml" value="0.1" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/activity_detail.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/activity_edit_tamplate.xml" value="0.1641025641025641" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/activity_tamplate_detail.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/activity_user_profile.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/bottomdialog.xml" value="0.22" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/changes.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/home_act.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/loading_layout.xml" value="0.25" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/login_act.xml" value="0.1" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/lupa_password_act.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/register_act.xml" value="0.2" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/row_tamplate.xml" value="0.18" />
+        <entry key="..\:/Project/Android/Test/TEST PITUTUR/PITUTUR-1/app/src/main/res/layout/splashscreen_act.xml" value="0.75" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

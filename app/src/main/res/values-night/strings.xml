@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="splash_name">Pitutur</string>
+    <string name="splash_logo">pitutur_logo</string>
+    <string name="Splash_desc">Dipersembahkan Untuk :</string>
+    <string name="login_screen_txt">Login</string>
+    <string name="logo_login">logo_login</string>
+    <string name="password_login">Password</string>
+    <string name="email_login">Email</string>
+    <string name="lupa_password_login">Lupa Password?</string>
+    <string name="proses_btn">Proses</string>
+    <string name="belum_punya_akun_login">Belum Punya Akun?</string>
+    <string name="register_screen_txt">Register</string>
+    <string name="nama_lengkap_register">Nama Lengkap</string>
+    <string name="nim_register">NIM</string>
+    <string name="jurusan_register">Jurusan</string>
+    <string name="ilus_txt">ilus</string>
+    <string name="logo">logo</string>
+    <string name="lupa_password_txt">Lupa Password</string>
+    <string name="loading_txt">Mohon Tunggu Sebentar</string>
+    <string name="image_strings">image</string>
+    <string name="btn_simpan">simpan</string>
+    <string name="tamplate_home">Tamplate</string>
+    <string name="tamplate_izin_kehadiran">Izin Kehadiran</string>
+    <string name="tamplate_bimbingan">Bimbingan</string>
+    <string name="tamplate_sidang">Sidang</string>
+    <string name="tamplate_tanda_tangan">Tanda Tangan</string>
+    <string name="tamplate_revisi">Revisi</string>
+    <string name="judul_tamplate">Tambahkan Judul</string>
+    <string name="waktunya">Nah Sekarang Waktunya chat dosen</string>
+    <string name="blm_waktunya">Sebaiknya besok aja deh chat dosennya</string>
+    <string name="salam_tamplate_txt">Salam</string>
+    <string name="salam_one">Assalamualaikum</string>
+    <string name="salam_two">Selamat</string>
+    <string name="time_one">Pagi</string>
+    <string name="time_two">Siang</string>
+    <string name="time_three">Sore</string>
+    <string name="gender_one">Bapak</string>
+    <string name="gender_two">Ibu</string>
+    <string name="riwayat_home">Riwayat</string>
+    <string name="string_dialog">Mau apa?</string>
+</resources>
